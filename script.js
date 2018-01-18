@@ -30,7 +30,7 @@
  
             for(i=1;i<=document.cookie.length;i++)
             {
-              $("#todoTable").html('<tr><td>' + getCookie("task"+i) + '</td></tr>');
+              $("#todoTable").append('<tr><td>' + getCookie("task"+i) + '</td></tr>');
             }
             
        }); 
