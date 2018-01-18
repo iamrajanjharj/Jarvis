@@ -38,14 +38,14 @@
        function jarvis_intro()
        {
         audio = new Audio();
-        audio.src = "sounds/Robotic_Countdown.mp3";
+        audio.src = "Robotic_Countdown.mp3";
         audio.play();
         
         intro = new Audio();
-        intro.src = "sounds/I_am_jarvis.mp3";
+        intro.src = "I_am_jarvis.mp3";
         
         assist = new Audio();
-        assist.src = "sounds/jarvis_assist.mp3";
+        assist.src = "jarvis_assist.mp3";
         
         $("#cover").animate({
             backgroundColor:"#000000"
